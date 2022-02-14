@@ -1,0 +1,34 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+ru:
+  js:
+    filters:
+      docs:
+        help: "Просмотр тем, относящихся к документации"
+    docs:
+      title: "Документация"
+      column_titles:
+        topic: "Тема"
+        activity: "Активность"
+      categories: "Разделы"
+      categories_filter_placeholder: "Фильтр по разделам"
+      tags_filter_placeholder: "Фильтр по тегам"
+      tags: "Теги"
+      search:
+        results:
+          one: "Найден %{count} результат"
+          few: "Найдено %{count} результата"
+          many: "Найдено %{count} результатов"
+          other: "Найдено %{count} результатов"
+        placeholder: "Введите искомое название темы"
+        clear: "Очистить"
+        tip_description: "Поиск в документации"
+      topic:
+        back: "Вернуться"
+        navigate_to_topic: "Просмотреть обсуждение этой темы"
+      filter_button: "Фильтры"
+      filter_solved: "Вопрос решён?"

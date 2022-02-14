@@ -1,0 +1,32 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+pt_BR:
+  js:
+    filters:
+      docs:
+        help: "navegar nos tópicos dos documentos"
+    docs:
+      title: "Documentos"
+      column_titles:
+        topic: "Tópico"
+        activity: "Atividade"
+      categories: "Categorias"
+      categories_filter_placeholder: "Filtrar categorias"
+      tags_filter_placeholder: "Filtrar etiquetas"
+      tags: "Etiquetas"
+      search:
+        results:
+          one: "%{count} resultado encontrado"
+          other: "%{count} resultados encontrados"
+        placeholder: "Pesquisar por tópicos"
+        clear: "Limpar"
+        tip_description: "Pesquisar em documentos"
+      topic:
+        back: "Voltar"
+        navigate_to_topic: "Veja a discussão neste tópico"
+      filter_button: "Filtros"
+      filter_solved: "Tópico resolvido?"

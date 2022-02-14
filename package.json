@@ -1,0 +1,10 @@
+{
+  "name": "converge-discourse-docs",
+  "version": "0.1",
+  "repository": "https://github.com/discourse/discourse-docs",
+  "author": "Discourse",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "^2.0.0"
+  }
+}

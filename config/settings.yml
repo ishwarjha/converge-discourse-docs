@@ -1,0 +1,18 @@
+plugins:
+  docs_enabled:
+    default: false
+    client: true
+  docs_categories:
+    type: category_list
+    default: ""
+    client: true
+  docs_tags:
+    type: tag_list
+    default: ""
+    client: true
+  docs_add_solved_filter:
+    default: false
+    client: true
+  docs_add_to_top_menu:
+    default: false
+    client: true

@@ -1,0 +1,13 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+zh_CN:
+  site_settings:
+    docs_enabled: "启用文档插件"
+    docs_categories: "要包含在文档中的类别缩略名列表"
+    docs_tags: "要包含在文档中的标签列表"
+    docs_add_solved_filter: "为已解决的话题添加筛选器 — 需要安装和启用 Discourse Solved"
+    docs_add_to_top_menu: "添加指向顶部菜单的链接以导航到“文档”视图"
