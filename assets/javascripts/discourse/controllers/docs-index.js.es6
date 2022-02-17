@@ -2,7 +2,7 @@ import Controller, { inject as controller } from "@ember/controller";
 import discourseComputed, { on } from "discourse-common/utils/decorators";
 import { action } from "@ember/object";
 import { alias, equal, gt, readOnly } from "@ember/object/computed";
-import Docs from "discourse/plugins/discourse-docs/discourse/models/docs";
+import Docs from "discourse/plugins/converge-discourse-docs/discourse/models/docs";
 import { getOwner } from "@ember/application";
 import getURL from "discourse-common/lib/get-url";
 import I18n from "I18n";
@@ -205,7 +205,7 @@ export default Controller.extend({
     } else if (this.currentUser.staff) {
       const setUpPluginMessage = I18n.t("docs.no_docs.setup_the_plugin", {
         settingsUrl: getURL(
-          "/admin/site_settings/category/plugins?filter=plugin:discourse-docs"
+          "/admin/site_settings/category/plugins?filter=plugin:converge-discourse-docs"
         ),
       });
       body += ` ${setUpPluginMessage}`;

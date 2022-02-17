@@ -1,6 +1,6 @@
 import DiscourseRoute from "discourse/routes/discourse";
 import I18n from "I18n";
-import Docs from "discourse/plugins/discourse-docs/discourse/models/docs";
+import Docs from "discourse/plugins/converge-discourse-docs/discourse/models/docs";
 
 export default DiscourseRoute.extend({
   queryParams: {

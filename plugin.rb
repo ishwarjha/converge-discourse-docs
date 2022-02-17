@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-# name: discourse-docs
+# name: converge-discourse-docs
 # about: A plugin to make it easy to explore and find knowledge base documents in Discourse
 # version: 0.1
 # author: Justin DiRose
-# url: https://github.com/discourse/discourse-docs
+# url: https://github.com/ishwarjha/converge-discourse-docs.git
 
 enabled_site_setting :docs_enabled
 
