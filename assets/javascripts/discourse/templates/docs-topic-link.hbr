@@ -1,1 +1,2 @@
-<a data-topic-id="{{topic.id}}" class="docs-topic-link">{{{topic.fancyTitle}}}</a>
+<!--<a data-topic-id="{{topic.id}}" class="docs-topic-link">{{{topic.fancyTitle}}}</a>-->
+<a  href="/t/{{topic.id}}" class="docs-topic-link">{{{topic.fancyTitle}}}</a>
